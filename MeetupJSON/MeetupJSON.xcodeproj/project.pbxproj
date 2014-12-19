@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7E2C2B81A3C16EE00F02311 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C2B71A3C16EE00F02311 /* main.m */; };
+		F7E2C2BB1A3C16EE00F02311 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C2BA1A3C16EE00F02311 /* AppDelegate.m */; };
+		F7E2C2BE1A3C16EE00F02311 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C2BD1A3C16EE00F02311 /* ViewController.m */; };
+		F7E2C2C11A3C16EE00F02311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E2C2BF1A3C16EE00F02311 /* Main.storyboard */; };
+		F7E2C2C31A3C16EE00F02311 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E2C2C21A3C16EE00F02311 /* Images.xcassets */; };
+		F7E2C2C61A3C16EE00F02311 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E2C2C41A3C16EE00F02311 /* LaunchScreen.xib */; };
+		F7E2C2D21A3C16EE00F02311 /* MeetupJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C2D11A3C16EE00F02311 /* MeetupJSONTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7E2C2CC1A3C16EE00F02311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7E2C2AA1A3C16EE00F02311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E2C2B11A3C16EE00F02311;
+			remoteInfo = MeetupJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7E2C2B21A3C16EE00F02311 /* MeetupJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetupJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E2C2B61A3C16EE00F02311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E2C2B71A3C16EE00F02311 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7E2C2B91A3C16EE00F02311 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7E2C2BA1A3C16EE00F02311 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7E2C2BC1A3C16EE00F02311 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7E2C2BD1A3C16EE00F02311 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7E2C2C01A3C16EE00F02311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7E2C2C21A3C16EE00F02311 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7E2C2C51A3C16EE00F02311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F7E2C2CB1A3C16EE00F02311 /* MeetupJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetupJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E2C2D01A3C16EE00F02311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E2C2D11A3C16EE00F02311 /* MeetupJSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetupJSONTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E2C2AF1A3C16EE00F02311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E2C2C81A3C16EE00F02311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7E2C2A91A3C16EE00F02311 = {
+			isa = PBXGroup;
+			children = (
+				F7E2C2B41A3C16EE00F02311 /* MeetupJSON */,
+				F7E2C2CE1A3C16EE00F02311 /* MeetupJSONTests */,
+				F7E2C2B31A3C16EE00F02311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E2C2B31A3C16EE00F02311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E2C2B21A3C16EE00F02311 /* MeetupJSON.app */,
+				F7E2C2CB1A3C16EE00F02311 /* MeetupJSONTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E2C2B41A3C16EE00F02311 /* MeetupJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F7E2C2B91A3C16EE00F02311 /* AppDelegate.h */,
+				F7E2C2BA1A3C16EE00F02311 /* AppDelegate.m */,
+				F7E2C2BC1A3C16EE00F02311 /* ViewController.h */,
+				F7E2C2BD1A3C16EE00F02311 /* ViewController.m */,
+				F7E2C2BF1A3C16EE00F02311 /* Main.storyboard */,
+				F7E2C2C21A3C16EE00F02311 /* Images.xcassets */,
+				F7E2C2C41A3C16EE00F02311 /* LaunchScreen.xib */,
+				F7E2C2B51A3C16EE00F02311 /* Supporting Files */,
+			);
+			path = MeetupJSON;
+			sourceTree = "<group>";
+		};
+		F7E2C2B51A3C16EE00F02311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7E2C2B61A3C16EE00F02311 /* Info.plist */,
+				F7E2C2B71A3C16EE00F02311 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7E2C2CE1A3C16EE00F02311 /* MeetupJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7E2C2D11A3C16EE00F02311 /* MeetupJSONTests.m */,
+				F7E2C2CF1A3C16EE00F02311 /* Supporting Files */,
+			);
+			path = MeetupJSONTests;
+			sourceTree = "<group>";
+		};
+		F7E2C2CF1A3C16EE00F02311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7E2C2D01A3C16EE00F02311 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7E2C2B11A3C16EE00F02311 /* MeetupJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E2C2D51A3C16EE00F02311 /* Build configuration list for PBXNativeTarget "MeetupJSON" */;
+			buildPhases = (
+				F7E2C2AE1A3C16EE00F02311 /* Sources */,
+				F7E2C2AF1A3C16EE00F02311 /* Frameworks */,
+				F7E2C2B01A3C16EE00F02311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetupJSON;
+			productName = MeetupJSON;
+			productReference = F7E2C2B21A3C16EE00F02311 /* MeetupJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7E2C2CA1A3C16EE00F02311 /* MeetupJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E2C2D81A3C16EE00F02311 /* Build configuration list for PBXNativeTarget "MeetupJSONTests" */;
+			buildPhases = (
+				F7E2C2C71A3C16EE00F02311 /* Sources */,
+				F7E2C2C81A3C16EE00F02311 /* Frameworks */,
+				F7E2C2C91A3C16EE00F02311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E2C2CD1A3C16EE00F02311 /* PBXTargetDependency */,
+			);
+			name = MeetupJSONTests;
+			productName = MeetupJSONTests;
+			productReference = F7E2C2CB1A3C16EE00F02311 /* MeetupJSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E2C2AA1A3C16EE00F02311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = i3Tech;
+				TargetAttributes = {
+					F7E2C2B11A3C16EE00F02311 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F7E2C2CA1A3C16EE00F02311 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F7E2C2B11A3C16EE00F02311;
+					};
+				};
+			};
+			buildConfigurationList = F7E2C2AD1A3C16EE00F02311 /* Build configuration list for PBXProject "MeetupJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7E2C2A91A3C16EE00F02311;
+			productRefGroup = F7E2C2B31A3C16EE00F02311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E2C2B11A3C16EE00F02311 /* MeetupJSON */,
+				F7E2C2CA1A3C16EE00F02311 /* MeetupJSONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E2C2B01A3C16EE00F02311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E2C2C11A3C16EE00F02311 /* Main.storyboard in Resources */,
+				F7E2C2C61A3C16EE00F02311 /* LaunchScreen.xib in Resources */,
+				F7E2C2C31A3C16EE00F02311 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E2C2C91A3C16EE00F02311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E2C2AE1A3C16EE00F02311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E2C2BE1A3C16EE00F02311 /* ViewController.m in Sources */,
+				F7E2C2BB1A3C16EE00F02311 /* AppDelegate.m in Sources */,
+				F7E2C2B81A3C16EE00F02311 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E2C2C71A3C16EE00F02311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E2C2D21A3C16EE00F02311 /* MeetupJSONTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7E2C2CD1A3C16EE00F02311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7E2C2B11A3C16EE00F02311 /* MeetupJSON */;
+			targetProxy = F7E2C2CC1A3C16EE00F02311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7E2C2BF1A3C16EE00F02311 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E2C2C01A3C16EE00F02311 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7E2C2C41A3C16EE00F02311 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E2C2C51A3C16EE00F02311 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7E2C2D31A3C16EE00F02311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7E2C2D41A3C16EE00F02311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E2C2D61A3C16EE00F02311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetupJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7E2C2D71A3C16EE00F02311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetupJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7E2C2D91A3C16EE00F02311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeetupJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetupJSON.app/MeetupJSON";
+			};
+			name = Debug;
+		};
+		F7E2C2DA1A3C16EE00F02311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeetupJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetupJSON.app/MeetupJSON";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E2C2AD1A3C16EE00F02311 /* Build configuration list for PBXProject "MeetupJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E2C2D31A3C16EE00F02311 /* Debug */,
+				F7E2C2D41A3C16EE00F02311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E2C2D51A3C16EE00F02311 /* Build configuration list for PBXNativeTarget "MeetupJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E2C2D61A3C16EE00F02311 /* Debug */,
+				F7E2C2D71A3C16EE00F02311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7E2C2D81A3C16EE00F02311 /* Build configuration list for PBXNativeTarget "MeetupJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E2C2D91A3C16EE00F02311 /* Debug */,
+				F7E2C2DA1A3C16EE00F02311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7E2C2AA1A3C16EE00F02311 /* Project object */;
+}

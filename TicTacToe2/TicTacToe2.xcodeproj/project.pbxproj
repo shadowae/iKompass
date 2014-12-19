@@ -14,6 +14,7 @@
 		F7E2C25C1A3BD4F200F02311 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E2C25B1A3BD4F200F02311 /* Images.xcassets */; };
 		F7E2C25F1A3BD4F200F02311 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E2C25D1A3BD4F200F02311 /* LaunchScreen.xib */; };
 		F7E2C26B1A3BD4F200F02311 /* TicTacToe2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C26A1A3BD4F200F02311 /* TicTacToe2Tests.m */; };
+		F7E2C2761A3BDA0E00F02311 /* GameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C2751A3BDA0E00F02311 /* GameEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F7E2C2641A3BD4F200F02311 /* TicTacToe2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToe2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E2C2691A3BD4F200F02311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E2C26A1A3BD4F200F02311 /* TicTacToe2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToe2Tests.m; sourceTree = "<group>"; };
+		F7E2C2741A3BDA0E00F02311 /* GameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEngine.h; sourceTree = "<group>"; };
+		F7E2C2751A3BDA0E00F02311 /* GameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				F7E2C2581A3BD4F200F02311 /* Main.storyboard */,
 				F7E2C25B1A3BD4F200F02311 /* Images.xcassets */,
 				F7E2C25D1A3BD4F200F02311 /* LaunchScreen.xib */,
+				F7E2C2741A3BDA0E00F02311 /* GameEngine.h */,
+				F7E2C2751A3BDA0E00F02311 /* GameEngine.m */,
 				F7E2C24E1A3BD4F200F02311 /* Supporting Files */,
 			);
 			path = TicTacToe2;
@@ -222,6 +227,7 @@
 				F7E2C2571A3BD4F200F02311 /* ViewController.m in Sources */,
 				F7E2C2541A3BD4F200F02311 /* AppDelegate.m in Sources */,
 				F7E2C2511A3BD4F200F02311 /* main.m in Sources */,
+				F7E2C2761A3BDA0E00F02311 /* GameEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

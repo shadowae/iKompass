@@ -16,28 +16,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="AM5-Jj-2QN">
+                                <rect key="frame" x="70" y="116" width="100" height="100"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="150" y="466" width="100" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board" translatesAutoresizingMaskIntoConstraints="NO" id="Fmk-xw-nLl">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="150" width="300" height="300"/>
+                                </variation>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G6k-05-LMK">
                                 <rect key="frame" x="70" y="116" width="100" height="100"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="42" y="142" width="100" height="100"/>
+                                    <rect key="frame" x="50" y="150" width="100" height="100"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1nh-qj-2yk">
                                 <rect key="frame" x="70" y="116" width="100" height="100"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="150" y="142" width="100" height="100"/>
+                                    <rect key="frame" x="149" y="150" width="100" height="100"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JhA-CA-DSy">
                                 <rect key="frame" x="70" y="116" width="100" height="100"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="258" y="142" width="100" height="100"/>
+                                    <rect key="frame" x="250" y="150" width="100" height="100"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e0v-EA-VXz">
                                 <rect key="frame" x="70" y="116" width="100" height="100"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="42" y="250" width="100" height="100"/>
+                                    <rect key="frame" x="50" y="250" width="100" height="100"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dfe-GG-qAC">
@@ -49,37 +61,33 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UjC-ie-bLR">
                                 <rect key="frame" x="70" y="116" width="100" height="100"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="258" y="250" width="100" height="100"/>
+                                    <rect key="frame" x="250" y="250" width="100" height="100"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Np0-jI-pV5">
                                 <rect key="frame" x="70" y="116" width="100" height="100"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="42" y="358" width="100" height="100"/>
+                                    <rect key="frame" x="50" y="350" width="100" height="100"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sJb-PH-L5J">
                                 <rect key="frame" x="70" y="116" width="100" height="100"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="150" y="358" width="100" height="100"/>
+                                    <rect key="frame" x="150" y="350" width="100" height="100"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LB8-2N-G21">
                                 <rect key="frame" x="70" y="116" width="100" height="100"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="258" y="358" width="100" height="100"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AM5-Jj-2QN">
-                                <rect key="frame" x="70" y="116" width="100" height="100"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="150" y="466" width="100" height="100"/>
+                                    <rect key="frame" x="250" y="350" width="100" height="100"/>
                                 </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="AM5-Jj-2QN"/>
+                                <exclude reference="Fmk-xw-nLl"/>
                                 <exclude reference="1nh-qj-2yk"/>
                                 <exclude reference="JhA-CA-DSy"/>
                                 <exclude reference="e0v-EA-VXz"/>
@@ -88,11 +96,12 @@
                                 <exclude reference="Np0-jI-pV5"/>
                                 <exclude reference="sJb-PH-L5J"/>
                                 <exclude reference="LB8-2N-G21"/>
-                                <exclude reference="AM5-Jj-2QN"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
+                                <include reference="AM5-Jj-2QN"/>
+                                <include reference="Fmk-xw-nLl"/>
                                 <include reference="1nh-qj-2yk"/>
                                 <include reference="JhA-CA-DSy"/>
                                 <include reference="e0v-EA-VXz"/>
@@ -101,11 +110,11 @@
                                 <include reference="Np0-jI-pV5"/>
                                 <include reference="sJb-PH-L5J"/>
                                 <include reference="LB8-2N-G21"/>
-                                <include reference="AM5-Jj-2QN"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="BackgroundImage" destination="Fmk-xw-nLl" id="4Os-aB-fna"/>
                         <outlet property="ImageEight" destination="sJb-PH-L5J" id="09n-Nh-GDu"/>
                         <outlet property="ImageFive" destination="Dfe-GG-qAC" id="J2d-gi-kY7"/>
                         <outlet property="ImageFour" destination="e0v-EA-VXz" id="2ba-gx-Eyl"/>
@@ -121,4 +130,8 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="board" width="300" height="300"/>
+        <image name="x" width="100" height="100"/>
+    </resources>
 </document>

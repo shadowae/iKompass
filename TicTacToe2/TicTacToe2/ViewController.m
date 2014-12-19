@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *ImageSeven;
 @property (weak, nonatomic) IBOutlet UIImageView *ImageEight;
 @property (weak, nonatomic) IBOutlet UIImageView *ImageNine;
+@property (weak, nonatomic) IBOutlet UIImageView *BackgroundImage;
 
 @end
 
