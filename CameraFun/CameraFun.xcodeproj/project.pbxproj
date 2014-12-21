@@ -15,6 +15,7 @@
 		F726F8F01A46795A0051918B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F726F8EF1A46795A0051918B /* Images.xcassets */; };
 		F726F8F31A46795A0051918B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F726F8F11A46795A0051918B /* LaunchScreen.xib */; };
 		F726F8FF1A46795A0051918B /* CameraFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F726F8FE1A46795A0051918B /* CameraFunTests.m */; };
+		F726F9091A46A0220051918B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F726F9081A46A0220051918B /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		F726F8F81A46795A0051918B /* CameraFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F726F8FD1A46795A0051918B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F726F8FE1A46795A0051918B /* CameraFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraFunTests.m; sourceTree = "<group>"; };
+		F726F9081A46A0220051918B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F726F9091A46A0220051918B /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +68,7 @@
 		F726F8D31A4679590051918B = {
 			isa = PBXGroup;
 			children = (
+				F726F9081A46A0220051918B /* Social.framework */,
 				F726F8DE1A4679590051918B /* CameraFun */,
 				F726F8FB1A46795A0051918B /* CameraFunTests */,
 				F726F8DD1A4679590051918B /* Products */,

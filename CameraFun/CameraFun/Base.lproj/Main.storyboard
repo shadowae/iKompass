@@ -20,9 +20,21 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qT6-Ty-Vhh">
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
-                                    <barButtonItem systemItem="camera" id="3U1-gd-TEV"/>
-                                    <barButtonItem systemItem="organize" id="xAf-AY-ghw"/>
-                                    <barButtonItem title="Share" id="OXf-vr-VX5"/>
+                                    <barButtonItem systemItem="camera" id="3U1-gd-TEV">
+                                        <connections>
+                                            <action selector="onCameraButtonPressed:" destination="BYZ-38-t0r" id="0b3-2n-mU8"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="organize" id="xAf-AY-ghw">
+                                        <connections>
+                                            <action selector="onSaveButtonPressed:" destination="BYZ-38-t0r" id="n6C-DY-HYA"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Share" id="OXf-vr-VX5">
+                                        <connections>
+                                            <action selector="onSharedButtonPressed:" destination="BYZ-38-t0r" id="qVS-Tx-9OO"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="social" translatesAutoresizingMaskIntoConstraints="NO" id="7gP-Kf-PqZ">
@@ -37,6 +49,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ni8-0Z-52q"/>
+                    <connections>
+                        <outlet property="imageView" destination="7gP-Kf-PqZ" id="siQ-AD-bRI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

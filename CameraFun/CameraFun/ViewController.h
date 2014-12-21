@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <Social/Social.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <UIActionSheetDelegate,UIImagePickerControllerDelegate>
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property(nonatomic, strong) UIImage *image;
+@property(nonatomic, strong) NSURL *videoURL;
 
 
 @end
